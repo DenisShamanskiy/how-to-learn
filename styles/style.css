@@ -22,12 +22,6 @@
   z-index: 1;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
 .logo {
   width: 183px;
 }
@@ -78,7 +72,7 @@
   background-size: 100%;
   z-index: -1;
 }
-
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
   top: 64px;
