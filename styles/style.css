@@ -48,6 +48,7 @@
 }
 
 .header__subtitle {
+  margin: 0; /*Замечание ревью 2*/
   position: absolute;
   width: 388px;
   left: 64px;
@@ -88,7 +89,7 @@
 /*Блок  description start*/
 
 .description {
-  padding-top: 100px;
+  padding: 100px 0;
   display: flex;
   justify-content: center;
 }
@@ -118,10 +119,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-}
-
-.two-columns__paragraph_center {
-  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -141,8 +138,8 @@
 }
 
 .section-title {
+  margin: 0;
   width: 60%;
-  margin: 100px 0 0 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
@@ -159,10 +156,11 @@
 }
 
 .table {
+  margin: 0; /*Замечание ревью 2*/
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between; /*Замечание ревью 2*/
 }
 
 .table__cell {
@@ -170,16 +168,18 @@
   margin-top: 60px;
 }
 
-ul {
-  padding-inline-start: 1px;
+/*Замечание ревью 2*/
+.padding-inline-start-unset {
+  padding-inline-start: unset;
 }
 
-li {
+/*Замечание ревью 2*/
+.list-style-type-none {
   list-style-type: none;
 }
 
 .table__heading {
-  margin: 20px 0 0 0;
+  margin: 0; /*Замечание ревью 2*/
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
@@ -199,6 +199,7 @@ li {
 
 .feynman {
   min-height: 790px;
+  padding-top: 100px; /*Замечание ревью 2*/
   background-color: #f2f2f2;
   position: relative;
   display: flex;
@@ -207,8 +208,8 @@ li {
 }
 
 .feynman__title {
+  margin: 0; /*Замечание ревью 2*/
   width: 648px;
-  padding-top: 100px;
   z-index: 1;
   line-height: 1.15;
   font-size: 120px;
@@ -253,8 +254,8 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #000000;
-  padding-bottom: 100px;
+  background-color: #1f1f1f; /*Замечание ревью 2*/
+  padding: 90px 0;
   overflow: hidden;
   position: relative;
   z-index: 1;
@@ -293,7 +294,7 @@ li {
 
 .footer {
   min-height: 350px;
-  background-color: #000000;
+  background-color: #1f1f1f; /*Замечание ревью 2*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -334,7 +335,6 @@ li {
   font-size: 18px;
   color: white;
   font-weight: bold;
-  margin-bottom: 20px;
   white-space: nowrap;
 }
 
