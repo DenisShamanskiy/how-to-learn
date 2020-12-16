@@ -11,3 +11,8 @@
   text-decoration: none;
   transition: 0.3s ease-in-out;
 }
+
+.footer__column-link:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s ease-in-out;
+}

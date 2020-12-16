@@ -5,3 +5,8 @@
   left: 64px;
   transition: 0.3s ease-in-out;
 }
+
+.logo_place_header:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s ease-in-out;
+}
